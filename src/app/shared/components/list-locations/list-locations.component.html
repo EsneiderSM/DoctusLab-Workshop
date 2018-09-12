@@ -1,0 +1,14 @@
+<div class="row">
+
+  <div *ngFor="let item of listLocations">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" [src]="item?.urlImage" alt="Card image cap">
+      <div class="card-body">
+        <span>{{ item?.type }}</span>
+        <h5 class="card-title">{{ item?.name }}</h5>
+        <p class="card-text">{{ item?.starts }}</p>
+      </div>
+    </div>
+  </div>
+
+</div>
