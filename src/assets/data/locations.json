@@ -16,7 +16,47 @@
         "urlImage":"https://a0.muscache.com/im/pictures/41671788/112cfec6_original.jpg?aki_policy=xx_large"
     },
     {
-        "id":"Lupe 3",
+        "id":"3",
+        "name":"CHARMING HOUSE Seaside& Pine Forest",
+        "type":"VILLA COMPLETA",
+        "starts":"5",
+        "description":"The Villa Amani is located in Labenne, surrounded by the pine trees, on the edge of the Aquitany Landes forest, between Hossegor / Capbreton and Bayonne / Biarritz. Atlantic Ocean 3km, watched beach and endless dunes, a Surf Paradise. Numerous Golf Clubs within 30km. All shops and services nearby.",
+        "urlImage":"https://a0.muscache.com/im/pictures/22903552/b41736ff_original.jpg?aki_policy=xx_large"
+    },
+    {
+        "id":"4",
+        "name":"PalacetedelVedado",
+        "type":"CASA ENTERA",
+        "starts":"5",
+        "description":"Palacetedelvedado welcomes you to Havana, in Vedado neighborhood, central and quiet at the same time. The building of 1915 was rescued from the ruins and restored. Walking distance to hotel with access wifi and supermarkets, restaurants and night life. 5 min ride from Old Havana, 24h reception, maid/house keeping service. I’ll give you tips and important information, you’ll have use of local cellphone during your stay.",
+        "urlImage":"https://a0.muscache.com/im/pictures/ba3f7bc4-31b8-435f-b5f9-5bc320901fe3.jpg?aki_policy=xx_large"
+    },
+    {
+        "id":"5",
+        "name":"Espléndida casa (20 min playa)",
+        "type":"HABITACIÓN PRIVADA EN CASA DE CAMPO",
+        "starts":"4",
+        "description":"Si usted necesita para relajarse o simplemente un punto de apoyo, pero no quiero que te pierdas un paseo por el parque ... bueno, nosotros tenemos la solución para usted! Nuestra casa está compuesto de: gran cocina - comedor, dos dormitorios dobles y un dormitorio individual, 2 baños, terraza, jardín y aparcamiento. Es sólo 20min. desde la playa e 2 min. en coche del centro de Canicattì donde encontrará bares, supermercados, pizzerías, restaurantes, bancos, estación de tren, etc Canicattì es una ciudad de 35 000 habitantes a 30 km de Agrigento, Caltanissetta a 30 km, 170 km y 180 km de Catania a Palermo. Todos los servicios se solicitan: aperitivos y cenas se sirve cada mañana nuestro curso especial Desayuno km 0, variada y genuina elaborada exclusivamente con productos locales y nuestras mermeladas caseras. A petición también se puede cenar.",
+        "urlImage":"https://a0.muscache.com/im/pictures/41671788/112cfec6_original.jpg?aki_policy=xx_large"
+    },
+    {
+        "id":"6",
+        "name":"CHARMING HOUSE Seaside& Pine Forest",
+        "type":"VILLA COMPLETA",
+        "starts":"5",
+        "description":"The Villa Amani is located in Labenne, surrounded by the pine trees, on the edge of the Aquitany Landes forest, between Hossegor / Capbreton and Bayonne / Biarritz. Atlantic Ocean 3km, watched beach and endless dunes, a Surf Paradise. Numerous Golf Clubs within 30km. All shops and services nearby.",
+        "urlImage":"https://a0.muscache.com/im/pictures/22903552/b41736ff_original.jpg?aki_policy=xx_large"
+    },
+    {
+        "id":"7",
+        "name":"Espléndida casa (20 min playa)",
+        "type":"HABITACIÓN PRIVADA EN CASA DE CAMPO",
+        "starts":"4",
+        "description":"Si usted necesita para relajarse o simplemente un punto de apoyo, pero no quiero que te pierdas un paseo por el parque ... bueno, nosotros tenemos la solución para usted! Nuestra casa está compuesto de: gran cocina - comedor, dos dormitorios dobles y un dormitorio individual, 2 baños, terraza, jardín y aparcamiento. Es sólo 20min. desde la playa e 2 min. en coche del centro de Canicattì donde encontrará bares, supermercados, pizzerías, restaurantes, bancos, estación de tren, etc Canicattì es una ciudad de 35 000 habitantes a 30 km de Agrigento, Caltanissetta a 30 km, 170 km y 180 km de Catania a Palermo. Todos los servicios se solicitan: aperitivos y cenas se sirve cada mañana nuestro curso especial Desayuno km 0, variada y genuina elaborada exclusivamente con productos locales y nuestras mermeladas caseras. A petición también se puede cenar.",
+        "urlImage":"https://a0.muscache.com/im/pictures/41671788/112cfec6_original.jpg?aki_policy=xx_large"
+    },
+    {
+        "id":"8",
         "name":"CHARMING HOUSE Seaside& Pine Forest",
         "type":"VILLA COMPLETA",
         "starts":"5",

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { LocationModel } from '../../models/location.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-list-locations',
@@ -11,9 +12,14 @@ export class ListLocationsComponent implements OnInit {
   @Input()
   listLocations: LocationModel[];
 
-  constructor() { }
+  constructor( private _router:Router ) { }
 
   ngOnInit() {
+  }
+
+
+  public detail(item: LocationModel){
+    this._router.navigate([`/location/detail/${item.id}`])
   }
 
 }

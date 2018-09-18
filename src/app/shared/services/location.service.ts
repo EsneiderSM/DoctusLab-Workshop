@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { LocationModel } from "../models/location.model";
+import { map, filter, flatMap } from 'rxjs/operators';
 
 
 @Injectable()
