@@ -1,7 +1,22 @@
 
-<div class="location">
-  <div class="location__image">
-      <img [src]="location?.urlImage" alt="">
+<div class="row location">
+    <div class="location__image">
+        <img [src]="location?.urlImage" alt="">
+    </div>
+
+  <div class="col-sm-8 ">
+     
+      <span>{{location?.type}}</span>
+      <h2>{{ location?.name }}</h2>
+      <div>
+        <p>{{ location?.description }}</p>
+      </div>
+
   </div>
-  
+
+  <div class="col-sm-4">
+    <h4>{{ location?.price }}</h4>
+    <span>{{ location?.starts }}</span>
+  </div>
 </div>
+

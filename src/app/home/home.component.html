@@ -3,10 +3,11 @@
 
   <h1>Hola buscador</h1>
   <form>
-    <input type="text" name="text">
-    <button type="submit">Buscar</button>
+    <input type="text" name="text" (keyup)="onKey($event)">
   </form>
 </div>
+
+<p>{{values}}</p>
 
 
 <app-list-locations [listLocations]="listLocations"></app-list-locations>

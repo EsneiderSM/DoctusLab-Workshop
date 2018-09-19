@@ -10,7 +10,9 @@ import { LocationModel } from '../shared/models/location.model';
 export class HomeComponent implements OnInit {
 
   public listLocations: LocationModel[];
-
+  public allLocation: LocationModel[];
+  public values: string = '';
+  
   constructor(
     private _locationService: LocationService
   ) { }
@@ -24,8 +26,14 @@ export class HomeComponent implements OnInit {
   public getAllLocations(){
     this._locationService.getAll()
       .subscribe(resp => {
+        this.allLocation = resp;
         this.listLocations = resp;
       })
+  }
+
+  onKey(event: any) { 
+    this.values = event.target.value;
+    this.listLocations = this.allLocation.filter(l => l.name.toUpperCase().includes(this.values.toUpperCase())); 
   }
 
 }
