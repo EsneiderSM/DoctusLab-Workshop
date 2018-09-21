@@ -19,6 +19,7 @@ export class ListLocationsComponent implements OnInit {
 
 
   public detail(item: LocationModel){
+    debugger
     this._router.navigate([`/location/detail/${item.id}`])
   }
 

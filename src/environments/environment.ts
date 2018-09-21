@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: "AIzaSyCNgcAGE7NSdEleprj7EfB2VYkrQdfiF1o",
+    authDomain: "doctus-lab.firebaseapp.com",
+    databaseURL: "https://doctus-lab.firebaseio.com",
+    projectId: "doctus-lab",
+    storageBucket: "doctus-lab.appspot.com",
+    messagingSenderId: "475253770591"
+  }
 };
 
 /*

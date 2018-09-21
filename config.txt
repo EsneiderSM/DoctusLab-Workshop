@@ -1,0 +1,11 @@
+
+
+1. Instalar firebase y angularfire2
+npm install --save firebase angularfire2
+
+2. Crear proyecto firebase 
+3. Crea real time bd en firabase
+4. Deshabilitar autenticacion
+5. Agregar configuracion de FB a la aplicacion
+6. Importamos en el modulo principal AngularFireModule, AngularFireDatabase, enviroment
+7. configuramos el servicio

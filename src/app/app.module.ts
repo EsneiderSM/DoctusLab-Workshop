@@ -10,6 +10,10 @@ import { HomeComponent } from './home/home.component';
 import { LocationService } from './shared/services/location.service';
 import { HttpClientModule } from '@angular/common/http';
 
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabase, AngularFireDatabaseModule } from 'angularfire2/database';
+import { environment } from '../environments/environment'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +25,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [ LocationService ],
   bootstrap: [AppComponent]

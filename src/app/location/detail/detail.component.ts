@@ -28,11 +28,11 @@ export class DetailComponent implements OnInit {
 
     const ID = +this._activatedRoute.snapshot.paramMap.get('id');
 
-    this._locationService.getAll()
-      .subscribe(resp => {
-        this.location = resp.find(l => l.id == ID);
-        console.log(this.location);
-      })
+    // this._locationService.getAll()
+    //   .subscribe(resp => {
+    //     this.location = resp.find(l => l.id == ID);
+    //     console.log(this.location);
+    //   })
 
   }
 

@@ -9,8 +9,8 @@ import { LocationModel } from '../shared/models/location.model';
 })
 export class HomeComponent implements OnInit {
 
-  public listLocations: LocationModel[];
-  public allLocation: LocationModel[];
+  public listLocations: any;
+  public allLocation: any;
   public values: string = '';
   
   constructor(
@@ -26,6 +26,7 @@ export class HomeComponent implements OnInit {
   public getAllLocations(){
     this._locationService.getAll()
       .subscribe(resp => {
+        debugger
         this.allLocation = resp;
         this.listLocations = resp;
       })
