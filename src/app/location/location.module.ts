@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-
+import { FormsModule }   from '@angular/forms';
 import { LocationRoutingModule } from './location-routing.module';
 import { DetailComponent } from './detail/detail.component';
 import { CreateComponent } from './create/create.component';
@@ -10,7 +10,8 @@ import { CreateComponent } from './create/create.component';
       CreateComponent
   ],
   imports: [
-    LocationRoutingModule
+    LocationRoutingModule,
+    FormsModule
   ],
   providers: []
 })

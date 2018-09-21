@@ -28,21 +28,21 @@
     },
     {
         "id":"4",
-        "name":"PalacetedelVedado",
-        "type":"CASA ENTERA",
+        "name":"Cedar Cabana - Nature Lover's Suburban Oasis",
+        "type":"CASA DE HUÉSPEDES COMPLETA",
         "starts":"5",
-        "description":"Palacetedelvedado welcomes you to Havana, in Vedado neighborhood, central and quiet at the same time. The building of 1915 was rescued from the ruins and restored. Walking distance to hotel with access wifi and supermarkets, restaurants and night life. 5 min ride from Old Havana, 24h reception, maid/house keeping service. I’ll give you tips and important information, you’ll have use of local cellphone during your stay.",
-        "urlImage":"https://a0.muscache.com/im/pictures/ba3f7bc4-31b8-435f-b5f9-5bc320901fe3.jpg?aki_policy=xx_large",
+        "description":"Siempre he llamado a esta pequeña casa privada la cabaña. Un huésped describió su estadía como glamping. La madera de cedro real hace que se sienta como una cabaña acogedora. Seis millas a la entrada del Refugio Nacional de Vida Silvestre Merritt Island y 10 más tierras que usted en la vasta y salvaje (sin desarrollar) Canaveral National Seashore, localmente llamado Playalinda. A solo 1/2 milla para ver el lanzamiento en el río y en el restaurante El Leoncito. 9.6 millas hasta el Centro Espacial Kennedy. Aeropuerto Internacional de Orlando - 37 millas.",
+        "urlImage":"https://a0.muscache.com/im/pictures/d126ca7e-33a1-4f10-9a12-caf6ab327812.jpg?aki_policy=xx_large",
         "price":"$879.844"
     },
     {
         "id":"5",
-        "name":"Espléndida casa (20 min playa)",
-        "type":"HABITACIÓN PRIVADA EN CASA DE CAMPO",
+        "name":"Full Bed with pool and hot tub",
+        "type":"HABITACIÓN PRIVADA EN CASA",
         "starts":"4",
-        "description":"Si usted necesita para relajarse o simplemente un punto de apoyo, pero no quiero que te pierdas un paseo por el parque ... bueno, nosotros tenemos la solución para usted! Nuestra casa está compuesto de: gran cocina - comedor, dos dormitorios dobles y un dormitorio individual, 2 baños, terraza, jardín y aparcamiento. Es sólo 20min. desde la playa e 2 min. en coche del centro de Canicattì donde encontrará bares, supermercados, pizzerías, restaurantes, bancos, estación de tren, etc Canicattì es una ciudad de 35 000 habitantes a 30 km de Agrigento, Caltanissetta a 30 km, 170 km y 180 km de Catania a Palermo. Todos los servicios se solicitan: aperitivos y cenas se sirve cada mañana nuestro curso especial Desayuno km 0, variada y genuina elaborada exclusivamente con productos locales y nuestras mermeladas caseras. A petición también se puede cenar.",
+        "description":"La casa está cerca playalinda playa una de las últimas playas naturales en América. La playa está en el parque nacional de la costa de Canaveral, 50 millas cuadradas de humedales. El aeropuerto de Orlando está a 45 millas de distancia. La piscina no está climatizada, pero es divertido ir de bañera caliente a la piscina fría. Tengo un gato. Se permiten mascotas por un costo adicional. Un gran patio cercado está disponible.",
         "urlImage":"https://a0.muscache.com/im/pictures/41671788/112cfec6_original.jpg?aki_policy=xx_large",
-        "price":"$879.844"
+        "price":"$90.565"
     },
     {
         "id":"6",
@@ -55,20 +55,20 @@
     },
     {
         "id":"7",
-        "name":"Espléndida casa (20 min playa)",
-        "type":"HABITACIÓN PRIVADA EN CASA DE CAMPO",
+        "name":"Space Coast Oasis",
+        "type":"CASA ENTERA",
         "starts":"4",
         "description":"Si usted necesita para relajarse o simplemente un punto de apoyo, pero no quiero que te pierdas un paseo por el parque ... bueno, nosotros tenemos la solución para usted! Nuestra casa está compuesto de: gran cocina - comedor, dos dormitorios dobles y un dormitorio individual, 2 baños, terraza, jardín y aparcamiento. Es sólo 20min. desde la playa e 2 min. en coche del centro de Canicattì donde encontrará bares, supermercados, pizzerías, restaurantes, bancos, estación de tren, etc Canicattì es una ciudad de 35 000 habitantes a 30 km de Agrigento, Caltanissetta a 30 km, 170 km y 180 km de Catania a Palermo. Todos los servicios se solicitan: aperitivos y cenas se sirve cada mañana nuestro curso especial Desayuno km 0, variada y genuina elaborada exclusivamente con productos locales y nuestras mermeladas caseras. A petición también se puede cenar.",
-        "urlImage":"https://a0.muscache.com/im/pictures/41671788/112cfec6_original.jpg?aki_policy=xx_large",
+        "urlImage":"https://a0.muscache.com/im/pictures/138d4d77-da9b-401b-9f39-d065c7b08955.jpg?aki_policy=xx_large",
         "price":"$879.844"
     },
     {
         "id":"8",
-        "name":"CHARMING HOUSE Seaside& Pine Forest",
-        "type":"VILLA COMPLETA",
+        "name":"Eaden House on the East Coast",
+        "type":"CASA ENTERA",
         "starts":"5",
         "description":"The Villa Amani is located in Labenne, surrounded by the pine trees, on the edge of the Aquitany Landes forest, between Hossegor / Capbreton and Bayonne / Biarritz. Atlantic Ocean 3km, watched beach and endless dunes, a Surf Paradise. Numerous Golf Clubs within 30km. All shops and services nearby.",
-        "urlImage":"https://a0.muscache.com/im/pictures/22903552/b41736ff_original.jpg?aki_policy=xx_large",
+        "urlImage":"https://a0.muscache.com/im/pictures/99329880/7a4f53f2_original.jpg?aki_policy=xx_large",
         "price":"$879.844"
     }
 ]

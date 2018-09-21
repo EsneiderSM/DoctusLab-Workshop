@@ -1,20 +1,23 @@
 <div>
   <h1>Crear Alojamiento</h1>
-  <form action="">
+  <form (ngSubmit)="onSubmit()">
     <div class="form-group">
-      <input type="text" class="form-control" name="" placeholder="Nombre">
+      <input type="text" class="form-control" name="name" [(ngModel)]="location.name" placeholder="Nombre">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" name="" placeholder="Nombre">
+      <input type="text" class="form-control" name="type" [(ngModel)]="location.type" placeholder="Tipo">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" name="" placeholder="Nombre">
+      <input type="text" class="form-control" name="price" [(ngModel)]="location.price" placeholder="Valor">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" name="" placeholder="Nombre">
+      <input type="text" class="form-control" name="starts" [(ngModel)]="location.starts" placeholder="Estrella">
     </div>
     <div class="form-group">
-      <textarea rows="5" class="form-control" name="" placeholder="Nombre"></textarea>
+      <input type="text" class="form-control" name="img" [(ngModel)]="location.urlImage" placeholder="Url imagen">
+    </div>
+    <div class="form-group">
+      <textarea rows="5" class="form-control" name="description" [(ngModel)]="location.description" placeholder="Descripción"></textarea>
     </div>
     <div>
       <button type="submit" class="btn btn-primary">Crear</button>

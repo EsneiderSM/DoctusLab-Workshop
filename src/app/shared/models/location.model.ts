@@ -6,4 +6,5 @@ export class LocationModel {
     public starts: string;
     public description: string;
     public urlImage: string;
+    public price: string;
 }

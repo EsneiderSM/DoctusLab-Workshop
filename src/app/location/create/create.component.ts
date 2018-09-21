@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LocationModel } from '../../shared/models/location.model';
 
 @Component({
   selector: 'app-create',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateComponent implements OnInit {
 
+  public location: LocationModel = new LocationModel();
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onSubmit(){
+    console.log(this.location);
   }
 
 }
