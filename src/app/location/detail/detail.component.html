@@ -1,16 +1,20 @@
+<div class="location">
+  <div class="location__image">
+    <img [src]="location?.urlImage" alt="">
+  </div>
 
-<div class="row location">
-    <div class="location__image">
-        <img [src]="location?.urlImage" alt="">
-    </div>
+</div>
+
+
+<div class="row main-contet">
 
   <div class="col-sm-8 ">
-     
-      <span>{{location?.type}}</span>
-      <h2>{{ location?.name }}</h2>
-      <div>
-        <p>{{ location?.description }}</p>
-      </div>
+
+    <span>{{location?.type}}</span>
+    <h2>{{ location?.name }}</h2>
+    <div>
+      <p>{{ location?.description }}</p>
+    </div>
 
   </div>
 
@@ -19,4 +23,3 @@
     <span>{{ location?.starts }}</span>
   </div>
 </div>
-

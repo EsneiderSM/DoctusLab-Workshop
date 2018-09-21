@@ -1,13 +1,16 @@
+<div class="ctn-search">
 
-<div>
+  <div class="ctn-form">
+    <div class="ctn-form__form">
+      <h1>Reserva alojamientos y experiencias especiales.</h1>
+      <form>
+        <input type="text" name="text" (keyup)="onKey($event)">
+      </form>
+    </div>
+  </div>
 
-  <h1>Hola buscador</h1>
-  <form>
-    <input type="text" name="text" (keyup)="onKey($event)">
-  </form>
 </div>
 
-<p>{{values}}</p>
-
-
-<app-list-locations [listLocations]="listLocations"></app-list-locations>
+<div class="main-contet">
+  <app-list-locations [listLocations]="listLocations"></app-list-locations>
+</div>
